@@ -1,0 +1,61 @@
+.boxes {
+    display: inline-block;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 8px solid rgb(249, 210, 176);
+    background-color: rgb(249, 210, 176);
+    position: relative;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin:4em 4em 0 4em;
+   }
+  
+    
+  
+  .img-1 {
+    background-image: url(https://media0.giphy.com/media/Oc8lIQHZsXqDu/200.webp?cid=ecf05e474bhlqw23i75onerd3c9qmlir4u5jxn122t3ujssr&rid=200.webp&ct=g);
+  }
+  
+  .img-2 {
+    background-image: url("https://media3.giphy.com/media/5GoVLqeAOo6PK/200.webp?cid=ecf05e476falhtuocbsr9c93oiac979s3t5v4djjdktoqw87&rid=200.webp&ct=g");
+  }
+  
+  .img-3 {
+    background-image: url("https://media3.giphy.com/media/CW27AW0nlp5u0/200w.webp?cid=ecf05e47ocmvv57xj32rnqq7g53l3kn82bjnkm3ouhbdfnb5&rid=200w.webp&ct=g");
+  }
+  
+  .img-wrapper {
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+  }
+   
+  .box:hover .caption {
+    top: 0;
+  }
+  
+  .caption {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 300px;
+    transition: top 0.5s;
+    background-color: rgba(33, 32, 32, 0.425);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  
